@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+}
+.calenderContainer{
+    z-index: -1;
+}
+.calText{
+    color: rgb(0, 0, 0);
+    font-size: larger;
+
+}

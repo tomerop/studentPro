@@ -1,0 +1,41 @@
+
+
+.cardsContainer{
+    position: relative;
+    align-items: center;
+    min-height: 100%;
+    width: 80vw;
+    margin-left: 15vw;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.groupTab{
+    
+    width: 15vw;
+    height: 15vh;
+    text-align: center;
+    background-color: beige;
+    border-radius: 20px;
+    margin: 1vw;
+}
+.groupImg{
+    position: relative;
+    width: 32vw;
+    height: 44vh;
+    border-radius: 20px;
+    margin-bottom: 2vh;
+}
+.overlay{
+    position: absolute;
+    opacity: 0;
+    transition: 2s ease-in;
+    z-index: 10;
+   
+}
+.groupImg:hover .overlay{
+    opacity: 1;
+}
+
